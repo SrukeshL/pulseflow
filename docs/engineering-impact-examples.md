@@ -1,0 +1,9 @@
+- A hybrid data pipeline experienced increasing batch runtimes and streaming consumer lag as data volume grew.
+- Identify performance bottlenecks, restore SLAs, and improve system observability.
+- Replaced full table scans with incremental extraction
+- Pushed aggregation logic into SQL
+- Introduced batch processing for Kafka consumers
+- Added metrics to isolate I/O vs CPU bottlenecks
+- Reduced batch runtime by ~70%
+- Reduced consumer lag from tens of minutes to under 2 minutes
+- Improved system stability and debuggability
